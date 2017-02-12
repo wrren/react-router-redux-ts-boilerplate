@@ -1,5 +1,4 @@
 import * as React from 'react'
-import NavigationContainer  from './navigation/NavigationContainer'
 
 export interface ChecklistProps {
   children: React.Component<any, any>[]
@@ -8,7 +7,6 @@ export interface ChecklistProps {
 const Checklist = (props: ChecklistProps) => 
   <div>
     <h1>Hello World</h1>
-    <NavigationContainer />
     {props.children}
   </div>;
 
